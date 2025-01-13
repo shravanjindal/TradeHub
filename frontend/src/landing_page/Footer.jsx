@@ -9,7 +9,7 @@ function Footer() {
           <div className="col-lg-3 footer-col">
             <img src="images/logo.png" style={{ width: "150px",marginBottom:"1rem" }} />
             <p>
-              © 2010 - 2024, Zerodha Broking Ltd.
+              © 2010 - 2024, Tradehub Broking Ltd.
               <br />
               All rights reserved.
             </p>
@@ -52,16 +52,16 @@ function Footer() {
           <div className="col-1"></div>
           <div className="text col-10">
             <p>
-              Zerodha Broking Ltd.: Member of NSE, BSE​ &​ MCX – SEBI
+              Tradehub Broking Ltd.: Member of NSE, BSE​ &​ MCX – SEBI
               Registration no.: INZ000031633 CDSL/NSDL: Depository services
-              through Zerodha Broking Ltd. – SEBI Registration no.:
-              IN-DP-431-2019 Commodity Trading through Zerodha Commodities Pvt.
+              through Tradehub Broking Ltd. – SEBI Registration no.:
+              IN-DP-431-2019 Commodity Trading through Tradehub Commodities Pvt.
               Ltd. MCX: 46025; NSE-50001 – SEBI Registration no.: INZ000038238
-              Registered Address: Zerodha Broking Ltd., #153/154, 4th Cross,
+              Registered Address: Tradehub Broking Ltd., #153/154, 4th Cross,
               Dollars Colony, Opp. Clarence Public School, J.P Nagar 4th Phase,
               Bengaluru - 560078, Karnataka, India. For any complaints
               pertaining to securities broking please write to
-              complaints@zerodha.com, for DP related to dp@zerodha.com. Please
+              complaints@tradehub.com, for DP related to dp@tradehub.com. Please
               ensure you carefully read the Risk Disclosure Document as
               prescribed by SEBI | ICF <br />
               <br />
@@ -97,7 +97,7 @@ function Footer() {
               case of allotment. In case of non allotment the funds will remain
               in your bank account. As a business we don't give stock tips, and
               have not authorized anyone to trade on behalf of others. If you
-              find anyone claiming to be part of Zerodha and offering such
+              find anyone claiming to be part of Tradehub and offering such
               services, please create a ticket here.
             </p>
           </div>
