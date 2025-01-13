@@ -40,7 +40,6 @@ function Footer() {
             <h2>Downloads & resources</h2>
             <h2>Videos</h2>
             <h2>Market overview</h2>
-            <h2>Tradehub Cares (CSR)</h2>
           </div>
           <div className="col-lg-2 footer-col">
             <h1>Account</h1>
@@ -50,7 +49,7 @@ function Footer() {
         </div>
         <div className="row mt-5">
           <div className="col-1"></div>
-          <div className="text col-10">
+          <div className="footer-text col-10">
             <p>
               Tradehub Broking Ltd.: Member of NSE, BSE​ &​ MCX – SEBI
               Registration no.: INZ000031633 CDSL/NSDL: Depository services

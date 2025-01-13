@@ -9,8 +9,8 @@ function Awards() {
                 </div>
                 <div className='mt-3 col-lg-6 p-5'>
                     <h1 className='fs-2 mb-4' >Larget stock broker in India</h1>
-                    <p className='mb-5'>The largest stock broker in the world by market capitalization and client accounts is Charles Schwab, offering a wide range of investment and financial services.</p>
-                    <div className='row'>
+                    <p className='mb-5 grey-text'>The largest stock broker in the world by market capitalization and client accounts is Charles Schwab, offering a wide range of investment and financial services.</p>
+                    <div className='row  grey-text'>
                         <div className='col-6'>
                             <ul>
                                 <li>

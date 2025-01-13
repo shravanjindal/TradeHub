@@ -11,7 +11,7 @@ function Education() {
         <div className="col-lg-5 p-5">
           <h1 className="mb-5 fs-2">Free and open market education</h1>
           <div className="mb-4">
-            <p>
+            <p className="grey-text">
                 Varsity, the largest online stock market education book in the world
                 covering everything from the basics to advanced trading.
             </p>
@@ -20,7 +20,7 @@ function Education() {
             </a>
           </div>
           <div>
-            <p>
+            <p className="grey-text">
             TradingQ&A, the most active trading and investment community in India for all your market related queries.
             </p>
             <a href="" style={{ textDecoration: "none" }}>
