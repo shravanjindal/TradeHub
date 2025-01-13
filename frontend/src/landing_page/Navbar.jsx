@@ -1,41 +1,41 @@
 import React from "react";
-
+import { Link } from 'react-router-dom';
 function Navbar() {
   return (
     <nav class="navbar navbar-expand-lg border-bottom sticky-top" style={{backgroundColor:"#FFF",height:"5rem"}}>
       <div class="container-fluid flex space-between">
         <div style={{ marginLeft: "16%" }}>
-          <a class="navbar-brand" href="#">
+          <Link class="navbar-brand" to="/">
             <img src="images/logo.png" style={{ width: "150px" }} />
-          </a>
+          </Link>
         </div>
         <div style={{ marginRight: "16%" }}>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item  mx-2">
-                <a class="nav-link active" aria-current="page" href="#">
+                <Link class="nav-link active" aria-current="page" to="/signup">
                   Signup
-                </a>
+                </Link>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link active" href="#">
+                <Link class="nav-link active" to="/about">
                   About
-                </a>
+                </Link>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link active" href="#">
+                <Link class="nav-link active" to="/product">
                   Product
-                </a>
+                </Link>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link active" href="#">
+                <Link class="nav-link active" to="/pricing">
                   Pricing
-                </a>
+                </Link>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link active" href="#">
-                  Product
-                </a>
+                <Link class="nav-link active" to="/support">
+                  Support
+                </Link>
               </li>
               <li className="nav-item mx-2" style={{ fontSize: "1.5rem" }}>
                   <i class="fa-solid fa-bars nav-link"></i>
