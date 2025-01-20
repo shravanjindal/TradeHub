@@ -9,10 +9,24 @@ import SupportPage from "./landing_page/support/SupportPage"
 import Navbar from './landing_page/Navbar';
 import Footer from './landing_page/Footer';
 import NotFound from './landing_page/NotFound';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+
+function ScrollToTop() {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top of the page
+  }, [location]); // This effect runs whenever the route changes
+
+  return null; // This component doesn't render anything
+}
 
 function App() {
+ 
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Navbar />
       <div className='mt-5'></div>
       <Routes>

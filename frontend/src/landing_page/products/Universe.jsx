@@ -1,6 +1,11 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function Universe() {
+  const navigate = useNavigate()
+  const onClick = () =>{
+    navigate("/signup")
+  }
   return (
     <div className="container text-center mt-5">
       <h1>The Tradehub Universe</h1>
@@ -71,6 +76,7 @@ function Universe() {
           backgroundColor: "rgb(51 161 208)",
           border: "none",
         }}
+        onClick={onClick}
       >
         Sign up for free
       </button>

@@ -41,30 +41,30 @@ function Navbar() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav" style={{ marginRight: "30%" , maxWidth:"10rem"}}>
-            <ul class="navbar-nav">
-              <li class="nav-item  mx-2">
-                <Link class="nav-link active" aria-current="page" to="/signup">
+          <div className="collapse navbar-collapse" id="navbarNav" style={{ marginRight: "30%" , maxWidth:"10rem"}}>
+            <ul className="navbar-nav">
+              <li className="nav-item  mx-2">
+                <Link className="nav-link active" aria-current="page" to="/signup">
                   Signup
                 </Link>
               </li>
-              <li class="nav-item mx-2">
-                <Link class="nav-link active" to="/about">
+              <li className="nav-item mx-2">
+                <Link className="nav-link active" to="/about">
                   About
                 </Link>
               </li>
-              <li class="nav-item mx-2">
-                <Link class="nav-link active" to="/product">
+              <li className="nav-item mx-2">
+                <Link className="nav-link active" to="/product">
                   Product
                 </Link>
               </li>
-              <li class="nav-item mx-2">
-                <Link class="nav-link active" to="/pricing">
+              <li className="nav-item mx-2">
+                <Link className="nav-link active" to="/pricing">
                   Pricing
                 </Link>
               </li>
-              <li class="nav-item mx-2">
-                <Link class="nav-link active" to="/support">
+              <li className="nav-item mx-2">
+                <Link className="nav-link active" to="/support">
                   Support
                 </Link>
               </li>
