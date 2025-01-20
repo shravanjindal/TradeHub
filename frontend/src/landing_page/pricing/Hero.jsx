@@ -3,11 +3,11 @@ import React from 'react';
 function Hero() {
     return ( 
         <div className="container">
-            <div className="row text-center mt-5 p-5">
+            <div className="row text-center p-5 pb-0" style={{margin : "6rem"}}>
                 <h1 className='fs-1'>Charges</h1>
                 <p className='grey-text fs-5'>List of all charges and taxes</p>
             </div>
-            <div className="row p-5 text-center mt-5">
+            <div className="row p-5 pt-0 text-center mb-5">
                 <div className="col-lg-4">
                     <img src="images/pricing0.svg"/>
                     <h1 className='fs-3'>Free quity delivery</h1>

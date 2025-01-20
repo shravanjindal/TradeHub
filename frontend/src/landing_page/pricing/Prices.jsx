@@ -6,7 +6,7 @@ function Brokerage() {
       <div className="row">
         <h1 className="fs-3">Chargers for account opening</h1>
       </div>
-      <div className="container border mt-3 p-1 pb-5 table">
+      <div className="container border mt-3 p-1 table">
         <div className="row border-bottom">
           <div className="col-9">
             <p className="p-2 mx-3">Type of account</p>

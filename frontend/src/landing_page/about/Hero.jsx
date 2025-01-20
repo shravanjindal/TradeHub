@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="container flex">
+    <div className="container flex" style={{marginTop:"5rem"}}>
       <h1 className="p-5 fs-2 text-center border-bottom">
         We pioneered the discount broking model in India.
         <br />
