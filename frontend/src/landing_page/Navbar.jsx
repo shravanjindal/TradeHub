@@ -14,37 +14,34 @@ function Navbar() {
 
   return (
     <div>
-      {/* Navbar */}
       <nav
-        className="navbar navbar-expand-lg border-bottom"
+        className="navbar navbar-expand-lg border-bottom fixed-top"
         style={{
-          position: "sticky",
-          top: "0",
-          zIndex: "1030",
           backgroundColor: "#FFF",
           height: "5rem",
         }}
       >
-        <div className="container-fluid flex space-between">
+        <div className="container-fluid d-flex space-between">
           {/* Logo */}
-          <Link className="navbar-brand" to="/"  style={{ marginLeft: "16%" }}>
-            <img src="images/logo.png" style={{ width: "150px"}} alt="Logo" />
+          <div  style={{ marginLeft: "16%" }}>
+          <Link className="navbar-brand" to="/">
+            <img src="images/logo.png" style={{ width: "150px" }} alt="Logo" />
           </Link>
+          </div>
+          
 
           {/* Hamburger Button */}
           <button
             className="navbar-toggler"
             type="button"
-            aria-expanded={isMenuOpen ? "true" : "false"}
-            aria-label="Toggle navigation"
+            aria-expanded={isMenuOpen}
+            aria-label="toggle navigation"
             onClick={toggleMenu}
             style={{ marginRight: "16%" }}
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-        </div>
-      <div style={{ marginRight: "16%" }}>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse" id="navbarNav" style={{ marginRight: "30%" , maxWidth:"10rem"}}>
             <ul class="navbar-nav">
               <li class="nav-item  mx-2">
                 <Link class="nav-link active" aria-current="page" to="/signup">
@@ -80,7 +77,7 @@ function Navbar() {
         <div className="dialog-overlay" onClick={closeMenu}>
           <div className="dialog-box" onClick={(e) => e.stopPropagation()}>
             <ul className="dialog-links">
-            <li>
+              <li>
                 <Link to="/" onClick={closeMenu}>
                   Home
                 </Link>

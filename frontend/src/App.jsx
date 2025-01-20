@@ -14,6 +14,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
+      <div className='mt-5'></div>
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
         <Route path="/signup" element={<Signup />}></Route>
