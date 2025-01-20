@@ -12,15 +12,15 @@ function Brokerage() {
             <p className="p-2 mx-3">Type of account</p>
           </div>
           <div className="col-3">
-            <p className="p-2">Charges</p>
+            <p className="p-2 text-center">Charges</p>
           </div>
         </div>
         <div className="row ">
           <div className="col-9">
             <p className="p-2 mx-3 grey-text">Online account</p>
           </div>
-          <div className="col-3">
-            <p className="p-1 m-2 text-center free-tag" style={{ color: "white"}}>
+          <div className="col-3 d-flex justify-content-center">
+            <p className="p-1 m-2 text-center free-tag" style={{ color: "white", maxWidth:"50px", maxHeight:"25px"}}>
               FREE
             </p>
           </div>
@@ -29,8 +29,8 @@ function Brokerage() {
           <div className="col-9">
             <p className="p-2 mx-3 grey-text">Offline account</p>
           </div>
-          <div className="col-3">
-            <p className="p-1 m-2 text-center free-tag" style={{ color: "white"}}>
+          <div className="col-3 d-flex justify-content-center">
+            <p className="p-1 m-2 text-center free-tag" style={{ color: "white", maxWidth:"50px", maxHeight:"25px"}}>
               FREE
             </p>
           </div>

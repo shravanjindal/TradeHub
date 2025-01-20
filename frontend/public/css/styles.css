@@ -52,7 +52,9 @@
   height: 100%;
   object-fit: contain;
 }
-
+.flex-column p:hover {
+  color: black;
+}
 .table .row {
   height: 50px;
 }
@@ -102,4 +104,7 @@
 
 .dialog-links a:hover {
   color: #007bff;
+}
+.nav-link:hover {
+  color : #007bff !important;
 }
